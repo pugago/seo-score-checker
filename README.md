@@ -1,9 +1,25 @@
-MIT License
+# SEO Score Checker
 
-Copyright (c) 2025 PuGaGo IT
+Script sederhana untuk menampilkan **SEO Score** dari sebuah website menggunakan **Google Lighthouse CLI**.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
+## Fitur
+- Menampilkan skor SEO berdasarkan audit Lighthouse
+- Mudah dijalankan melalui terminal
+- Output langsung dalam bentuk angka skor SEO (0-100)
 
-[License shortened for brevity]
+## Cara Pakai
+
+### 1. Install Dependency
+```bash
+npm install
+```
+
+### 2. Jalankan Script
+```bash
+node seo-score.js https://example.com
+```
+
+## Dibuat oleh
+**PuGaGo IT**  
+Website: [https://pugago.co.id](https://pugago.co.id)
+
